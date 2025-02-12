@@ -1,0 +1,15 @@
+examples> A   
+Semantic error at 'A'
+examples> load A
+examples> A
+Number
+2 
+examples> A = [ 1 2 3 & 4 5 6 ]   
+examples> A
+Matrix
+1 2 3 
+4 5 6 
+examples> A = det ( A & [7 8] | 9 * 3)              # vysledna matice pred vypoctem determinantu 1 2 3 tri krat
+examples> A                                                                                      4 5 6
+Number                                                                                           7 8 9
+-0 
